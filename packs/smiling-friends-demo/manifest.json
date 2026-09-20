@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "title": "Desmond's House · Smiling Friends",
+  "rights": {
+    "declaration": "unknown",
+    "usage": "site-demo-per-project-owner-instruction"
+  },
+  "clips": [
+    {
+      "id": "SF-01",
+      "caption": "“This is gonna be great Charlie! I love helping kids, I love kids Charlie! I love kiiiiiids!”",
+      "speaker": "Pim",
+      "timestampMs": 3566,
+      "difficulty": 1,
+      "durationMs": 3500,
+      "audioPath": "/packs/smiling-friends-demo/line-01.mp3",
+      "imagePath": "/packs/smiling-friends-demo/line-01.png"
+    },
+    {
+      "id": "SF-02",
+      "caption": "“That's us ma'am. Here to bring smiles and make the world a better place!”",
+      "speaker": "Pim",
+      "timestampMs": 16137,
+      "difficulty": 1,
+      "durationMs": 3500,
+      "audioPath": "/packs/smiling-friends-demo/line-02.mp3",
+      "imagePath": "/packs/smiling-friends-demo/line-02.png"
+    },
+    {
+      "id": "SF-03",
+      "caption": "“Uhh, is your son home?”",
+      "speaker": "Pim",
+      "timestampMs": 19819,
+      "difficulty": 1,
+      "durationMs": 3500,
+      "audioPath": "/packs/smiling-friends-demo/line-03.mp3",
+      "imagePath": "/packs/smiling-friends-demo/line-03.png"
+    },
+    {
+      "id": "SF-04",
+      "caption": "“Hey little buddy how you doin'- oh my god, oh my god, oh my god.”",
+      "speaker": "Pim",
+      "timestampMs": 37204,
+      "difficulty": 2,
+      "durationMs": 3500,
+      "audioPath": "/packs/smiling-friends-demo/line-04.mp3",
+      "imagePath": "/packs/smiling-friends-demo/line-04.png"
+    },
+    {
+      "id": "SF-05",
+      "caption": "“Yea d-don't worry uhh, things are gonna be okay. What's wrong?”",
+      "speaker": "Pim",
+      "timestampMs": 57237,
+      "difficulty": 2,
+      "durationMs": 3500,
+      "audioPath": "/packs/smiling-friends-demo/line-05.mp3",
+      "imagePath": "/packs/smiling-friends-demo/line-05.png"
+    },
+    {
+      "id": "SF-06",
+      "caption": "“Oh come on, that's nonsense Charlie. We've never given up on a job so far.”",
+      "speaker": "Pim",
+      "timestampMs": 91921,
+      "difficulty": 2,
+      "durationMs": 3500,
+      "audioPath": "/packs/smiling-friends-demo/line-06.mp3",
+      "imagePath": "/packs/smiling-friends-demo/line-06.png"
+    },
+    {
+      "id": "SF-07",
+      "caption": "“Umm, hello there sir.”",
+      "speaker": "Pim",
+      "timestampMs": 97004,
+      "difficulty": 2,
+      "durationMs": 3500,
+      "audioPath": "/packs/smiling-friends-demo/line-07.mp3",
+      "imagePath": "/packs/smiling-friends-demo/line-07.png"
+    },
+    {
+      "id": "SF-08",
+      "caption": "“I know you don't know who I am, but my name is Pim.”",
+      "speaker": "Pim",
+      "timestampMs": 99254,
+      "difficulty": 3,
+      "durationMs": 3500,
+      "audioPath": "/packs/smiling-friends-demo/line-08.mp3",
+      "imagePath": "/packs/smiling-friends-demo/line-08.png"
+    },
+    {
+      "id": "SF-09",
+      "caption": "“I know right now things seem bleak, but I promised to you that by the end of this beautiful day you will have a big gorgeous smile on that handsome face of yours.”",
+      "speaker": "Pim",
+      "timestampMs": 102504,
+      "difficulty": 3,
+      "durationMs": 3500,
+      "audioPath": "/packs/smiling-friends-demo/line-09.mp3",
+      "imagePath": "/packs/smiling-friends-demo/line-09.png"
+    },
+    {
+      "id": "SF-10",
+      "caption": "“Oh, won't you give us a chance.”",
+      "speaker": "Pim",
+      "timestampMs": 111471,
+      "difficulty": 3,
+      "durationMs": 3500,
+      "audioPath": "/packs/smiling-friends-demo/line-10.mp3",
+      "imagePath": "/packs/smiling-friends-demo/line-10.png"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# Answer/search crawler: the public site is available for discovery and citation.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /internal/
+Disallow: /uploads/private/
+
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: https://dubround.com/sitemap.xml
+Host: https://dubround.com
