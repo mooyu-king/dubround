@@ -1,3 +1,8 @@
 .git/
 node_modules/
 .wrangler/
+README.md
+**/*.map
+**/.env*
+HANDOFF.md
+AGENTS.md
