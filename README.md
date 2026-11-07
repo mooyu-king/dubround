@@ -40,25 +40,29 @@ Online rooms synchronize players, rounds, and scores. They do not provide live v
 | Troubleshoot your setup | [Microphone Test](https://dubround.com/tools/mic-test/) |
 | Read the policies | [Terms](https://dubround.com/terms/) · [Privacy](https://dubround.com/privacy/) |
 
-## Local Development and Static Deployment
+## Make Your First Recording Comfortable
 
-Built with Next.js, React, TypeScript, browser audio APIs, and Workbox. The GitHub deployment repository contains the **static output from out**, not the source project needed to run npm commands.
+A good first challenge is a short line you can hear clearly. Listen once for meaning and again for timing before recording. You do not need to imitate every detail immediately: concentrate on the opening, the pauses, and the final word. Replay your attempt and choose one thing to change. This approach makes a repeated line feel like a small performance exercise rather than a test you must pass.
 
-Run these commands in the local source project:
+Use the microphone test page if the game cannot hear you. Confirm that your browser has permission, that the intended input device is selected, and that another application is not using the microphone unexpectedly. Headphones can help keep the reference clip from feeding back into your recording. Find a comfortable volume before beginning a longer session, and stop if speaking repeatedly becomes tiring.
 
-```bash
-npm run dev
-npm run typecheck
-npm run build-preserve-git
-```
+Scores compare aspects of an audio performance for entertainment. They are not a transcript check, a language qualification, or evidence that you sound exactly like another person. A funny interpretation can be worthwhile even when its score is lower. Listen to the actual recording and use your own judgment about expression, clarity, and whether the performance communicates the feeling you intended.
 
-The build runs in an isolated directory within the project and updates out only after success. Existing out/.git and all README variants are preserved. The first build creates the deployment README from the source README and adjusts relative image paths. The initial remote URL is https://github.com/mooyu-king/dubround.git; the script does not automatically commit, push, or overwrite an existing origin.
+## Choose Material Before Challenging Friends
 
-Deployment workflow: build locally → review changes in out → manually commit the static repository → deploy with Cloudflare Pages. The static repository is already compiled, so Cloudflare does not need to run another Next.js build. Keep the root _headers file to enforce same-origin embedding restrictions. The production domain is **dubround.com**.
+Community Packs organize reference clips into playable collections. Read the description and source attribution before loading one, especially when playing with younger people or in a shared space. Material from films, games, and online creators can differ substantially in language, loudness, and subject matter. Preview what you can and choose a collection everyone is comfortable hearing.
 
-**Service requirements**: out does not include a running room service or Pack download proxy. These must be deployed, configured, and verified separately. A successful build does not confirm that online multiplayer or remote downloads work in production. Do not upload .env files, service secrets, source dependencies, or the isolated build directory.
+Downloads depend on the availability of their source. A catalog entry does not guarantee that an upstream file remains accessible forever. Follow the actual status shown by the site, and do not begin a round until the material has finished loading. If a resource is unavailable, choose another Pack rather than repeatedly starting a game with missing audio.
 
-The website uses data.1back.link for traffic analytics; see the privacy policy for details. Microphone access requires HTTPS or a local development environment, along with user permission.
+Online play and local turn taking offer different experiences. With one shared device, players can agree on an order and pass the microphone between attempts. For an online room, everyone needs compatible material and a working connection. Room synchronization is not a voice call, so arrange any conversation separately. Private audio is not automatically sent to other players simply because they join a room.
+
+## Create Something You Can Replay
+
+The Pack Creator is intended for video material you have permission to use. Start with a manageable clip, listen to each selected segment, and check that its beginning and end contain the line you want. Short, distinct segments are easier to understand than clips that begin halfway through a sentence or include a long stretch of silence.
+
+Preview your selection before exporting. Give the collection a recognizable name and keep your own copy of the resulting Pack somewhere you can find again. Exporting a file and sharing it are different decisions: only distribute recordings and reference material when you have the necessary permission. Respect the people whose voices appear in your source.
+
+Browser storage is convenient, but it is not a substitute for a personal backup. Clearing site data, switching profiles, or moving to another device can affect locally held recordings. Save anything important before changing your browser setup. The privacy and contact pages provide the appropriate starting points for questions about the website; they do not replace the terms attached to third-party audio.
 
 ## Copyright and Contact
 
